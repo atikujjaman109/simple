@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<section>
+    <img src ="images/x.jpeg"class = "ban" >
+    <header>
+       <a href="#" class="logo"><img style="width:110px;height:auto;"src="images/logo.png"></a>
+   <div class="toggle"></div>
+<ul class="nav">
+<li><a href="#" style = "--i:1 "class="active">হোম </a></li>
+<li><a href="#" style = "--i:2 ">শিখুন </a></li>
+<li><a href="#" style = "--i:3 ">অ্যাবাউট </a></li>
+<li><a href="#" style = "--i:4 ">যোগাযোগ</a></li>
+ </ul>
+
+
+</header>
+<div class="content">
+    <div class="textbox">
+<h2>প্রোগ্রামিং<br /> শিখতে চান?</h2>
+<p>আপনি সঠিক জায়গায় এসেছেন।
+    বাংলায় <br/>  কুয়ালিটিফুল  কন্টেন্টের  সাহায্যে প্রোগ্রামিং <br /> শিখা  শুরু করুন আজই
+    আমাদের ফেসবুক পেজ<br/> বা ইউটিউব চ্যানেল থেকে।<br/>হয়ে উঠুন </br><span style = color:darkblue>একজন প্রো কোডার</span></p>
+     <a href ="#">learn more</a>
+</div>
+</div>
+
+</section>
+<div id= "info" >
+    <img src = "images/p.png"  class = "home">
+        <h2 class = "cont">প্রোগ্রামিং<br /> শিখুন ঘরে বসে</h2>
+    </div>
+       
+   
+
+
+
+<script>
+const menuToggle = document.querySelector('.toggle');
+const nav = document.querySelector('.nav');
+menuToggle.onclick = function(){
+menuToggle.classList.toggle('active');
+nav.classList.toggle('active');
+
+
+}
+
+</script>
+
+</body>
+
+</html>
